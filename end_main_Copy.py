@@ -14,6 +14,7 @@ import pandas as pd
 import io  # ✅ أضف هذا السطر
 from telegram import InputFile  # ✅ أضف هذا السطر إذا لم يكن موجوداً
 from flask import Flask
+from database_config import CONNECTION_STRING, SERVER, DATABASE, DB_CONFIG
 
 # ==============================
 # 🗄️ إعدادات قاعدة البيانات (نسخة Render)
@@ -3547,4 +3548,5 @@ def main():
                 raise
 
 if __name__ == '__main__':
+
     main()
