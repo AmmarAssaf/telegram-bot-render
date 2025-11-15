@@ -1,9 +1,8 @@
 python-telegram-bot==20.7
 pyodbc==4.0.39
-pandas==2.0.3
-openpyxl==3.1.2
-phonenumbers==8.13.27
-schedule==1.2.0
-flask==2.3.3
-gunicorn==21.2.0
-sqlalchemy==2.0.25
+pandas==1.5.3
+openpyxl==3.0.10
+phonenumbers==8.12.55
+schedule==1.1.0
+Flask==2.2.3
+gunicorn==20.1.0
